@@ -10,3 +10,5 @@ def missingNumber(arr1, arr2):
 print missingNumber([4, 4, 2, 6, 0, 3], [6, 4, 2, 3, 4]) == 0
 print missingNumber([4, 4, 2, 6, 0, 3], [6, 4, 2, 3, 0]) == 4
 print missingNumber([4], []) == 4
+
+# Time complexity is O(n).
