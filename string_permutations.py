@@ -13,6 +13,9 @@ def permutations(str):
 
     return output
 
+# Time complexity is O(n!) which sounds bad but is actually optimal. This is
+# just a computationally intensive problem!
+
 print permutations("ABC").sort() == ["ABC", "BAC", "BCA", "ACB", "CAB", "CBA"].sort() # order doesn't matter
 print permutations("AB").sort() == ["AB", "BA"].sort() # order doesn't matter
 print permutations("dogs").sort() == [
